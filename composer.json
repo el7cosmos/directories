@@ -1,0 +1,31 @@
+{
+    "name": "el7cosmos/directories",
+    "description": "Provides platform-specific standard locations of directories for config, cache and other data on Linux, Windows and macOS.",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Abi أب",
+            "email": "el@elabee.me"
+        }
+    ],
+    "require": {
+        "php": "^5.3.2 || ^7.0 || ^8.0"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Directories\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
